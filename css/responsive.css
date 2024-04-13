@@ -1,0 +1,1532 @@
+/*Size 0*/
+@media screen and (min-width: 1400px) {
+    header nav ul {
+        font-size: 1em;
+    }
+}
+
+
+/*Size 1*/
+@media all and (max-width: 1400px) and (min-width: 1160px) {
+
+    #bottomSlider .slick-prev,
+    #bottomSlider2 .slick-prev {
+        top: -20% !important;
+    }
+
+    #bottomSlider .slick-next,
+    #bottomSlider2 .slick-next {
+        top: -20% !important;
+    }
+
+    header nav ul {
+        font-size: 1em;
+    }
+
+    .slick-slide h3 {
+        font-size: 1em !important;
+    }
+}
+
+/*Size 2*/
+@media all and (min-width: 910px) and (max-width: 1160px) {
+
+    #bottomSlider .slick-prev,
+    #bottomSlider2 .slick-prev {
+        width: 3% !important;
+        left: 94% !important;
+        top: -18% !important;
+    }
+
+    #bottomSlider .slick-next,
+    #bottomSlider2 .slick-next {
+        width: 3% !important;
+        top: -18% !important;
+    }
+
+    #bottomSlider .slick-prev::before,
+    #bottomSlider2 .slick-prev::before {
+        font-size: 1rem !important;
+
+    }
+
+    #bottomSlider .slick-next::before,
+    #bottomSlider2 .slick-next::before {
+
+        font-size: 1rem !important;
+    }
+
+    .slick-slide h3 {
+        top: 40% !important;
+        font-size: 0.9em !important;
+    }
+
+    .cover i:nth-of-type(1) {
+        font-size: 0.8em;
+        left: 30% !important;
+    }
+
+    #title div {
+        font-size: 0.9em !important;
+    }
+
+
+    #show h1 {
+        font-size: 2em !important;
+    }
+
+
+    header nav>ul {
+        font-size: 0.8em;
+    }
+
+    header nav ul #Search::before {
+        transform: translate(650%, -100%) !important;
+    }
+
+    #mainSlider .slick-prev::before,
+    .slick-next::before {
+        font-size: 1.5rem !important;
+    }
+
+    #mainSlider .slick-dots li {
+        width: 30px !important;
+        margin: 0 2px !important;
+    }
+
+    #mainSlider .slick-dots li button {
+        width: 30px !important;
+        margin: 10px 0 !important;
+    }
+
+    #mainSlider .slick-dots li {
+        width: 60px !important;
+        margin: 0 5px !important;
+    }
+
+    #mainSlider .slick-dots li button {
+        width: 60px !important;
+        margin: 30px 0 !important;
+    }
+}
+
+/*Size 3*/
+@media all and (max-width: 910px) and (min-width:831px) {
+
+    #bottomSlider .slick-prev,
+    #bottomSlider2 .slick-prev {
+        width: 3% !important;
+        left: 94% !important;
+        top: -18% !important;
+    }
+
+    #bottomSlider .slick-next,
+    #bottomSlider2 .slick-next {
+        width: 3% !important;
+        top: -18% !important;
+    }
+
+    #bottomSlider .slick-prev::before,
+    #bottomSlider2 .slick-prev::before {
+        font-size: 1rem !important;
+
+    }
+
+    #bottomSlider .slick-next::before,
+    #bottomSlider2 .slick-next::before {
+
+        font-size: 1rem !important;
+    }
+
+    .cover {
+        background-color: #fff0 !important;
+        width: 100% !important;
+    }
+
+    .cover i:nth-of-type(2) {
+        position: unset !important;
+        transform: translateY(60%);
+    }
+
+    .cover i:nth-of-type(2) {
+        display: block !important;
+        color: #5eb3ab !important;
+    }
+
+    .slick-slide .cover i:nth-of-type(1) {
+        display: none !important;
+    }
+
+    .slick-slide h3 {
+        display: none !important;
+    }
+
+    #title div {
+        font-size: 0.8em !important;
+    }
+
+    #show h1 {
+        border-bottom: 3px solid #da4641dc !important;
+        font-size: 2em !important;
+    }
+
+    main .textContainer form input[type="submit"] {
+        font-size: 1em !important;
+    }
+
+    #mainSlider .slick-prev::before,
+    .slick-next::before {
+        font-size: 1.2rem !important;
+    }
+
+    #bottom {
+        height: 550px;
+    }
+
+    #bottom #info {
+        width: 50%;
+    }
+
+    #bottom #bottomPic {
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    main .mainRibbon {
+        font-size: 0.9em;
+        padding: 5px !important;
+    }
+
+    header nav {
+        width: 100% !important;
+        float: left !important;
+        margin-top: 50px !important;
+    }
+
+    header {
+        height: 130px !important;
+    }
+
+    header ul {
+        margin: 0 auto !important;
+    }
+
+    header nav>ul>li {
+        width: 80px !important;
+    }
+
+    header nav ul li ul {
+        margin-top: 8px !important;
+    }
+
+    header nav ul #Search {
+        margin-top: 8px !important;
+    }
+
+    header nav ul #Search li {
+        width: 150px !important;
+        display: block;
+
+    }
+
+    header nav ul li:nth-of-type(4) {
+        width: 120px !important;
+    }
+
+    header nav ul #Search::before {
+        transform: translate(300%, -100%) !important;
+    }
+
+    #mainSlider .slick-dots li {
+        width: 50px !important;
+        margin: 0 4px !important;
+    }
+
+    #mainSlider .slick-dots li button {
+        width: 50px !important;
+        margin: 20px 0 !important;
+    }
+}
+
+/*Size 4*/
+@media all and (max-width: 831px) and (min-width:467px) {
+
+    #bottomSlider .slick-prev,
+    #bottomSlider2 .slick-prev {
+        width: 5% !important;
+        left: 90% !important;
+        top: -18% !important;
+    }
+
+    #bottomSlider .slick-next,
+    #bottomSlider2 .slick-next {
+        width: 5% !important;
+        top: -18% !important;
+    }
+
+    #bottomSlider .slick-prev::before,
+    #bottomSlider2 .slick-prev::before {
+        font-size: 1rem !important;
+        background-color: #e7e7e7 !important;
+        color: rgb(125, 125, 125) !important;
+
+    }
+
+
+    #bottomSlider .slick-next::before,
+    #bottomSlider2 .slick-next::before {
+
+        font-size: 1rem !important;
+        background-color: #e7e7e7 !important;
+        color: rgb(125, 125, 125) !important;
+
+    }
+
+    .cover {
+        background-color: #fff0 !important;
+        width: 100% !important;
+    }
+
+    .cover i:nth-of-type(2) {
+        position: unset !important;
+        transform: translateY(80%);
+    }
+
+    .cover i:nth-of-type(2) {
+        display: block !important;
+        color: #5eb3ab !important;
+        font-size: 1.8em !important;
+    }
+
+    .slick-slide .cover i:nth-of-type(1) {
+        display: none !important;
+    }
+
+    .slick-slide h3 {
+        display: none !important;
+    }
+
+    #down {
+        overflow: hidden !important;
+    }
+
+    .downDiv {
+        margin: 10px 0 !important;
+    }
+
+    main .downDiv:nth-of-type(1) {
+        width: 60% !important;
+    }
+
+    main .downDiv:nth-of-type(2) {
+        width: 100% !important;
+    }
+
+    main .downDiv:nth-of-type(3) {
+        width: 50% !important;
+        margin-left: 50% !important;
+
+    }
+
+    #sdown {
+        overflow: hidden !important;
+    }
+
+    .sdownDiv {
+        margin: 10px 0 !important;
+    }
+
+    main .sdownDiv:nth-of-type(1) {
+        width: 50% !important;
+    }
+
+    main .sdownDiv:nth-of-type(2) {
+        width: 50% !important;
+    }
+
+    main .sdownDiv:nth-of-type(3) {
+        width: 100% !important;
+
+    }
+
+
+
+    main section #dialog .dialogDiv {
+        width: 60% !important;
+        border-radius: 5px !important;
+    }
+
+    main section #dialog .dialogDiv:nth-of-type(1):hover {
+        transform-origin: left !important;
+    }
+
+    main section #dialog .dialogDiv:nth-of-type(2) {
+        margin-left: 40% !important;
+    }
+
+
+    main section #dialog .dialogDiv:nth-of-type(2):hover {
+        transform-origin: right !important;
+    }
+
+    main section #dialog .dialogDiv:nth-of-type(3):hover {
+        transform-origin: left !important;
+    }
+
+
+    #title div {
+        font-size: 0.8em !important;
+        margin: 1% 15% !important;
+    }
+
+    #show h1 {
+        border-bottom: 3px solid #da4641dc !important;
+        font-size: 1.5em !important;
+    }
+
+    #title {
+        padding-top: 5% !important;
+    }
+
+    main .textContainer h2 {
+        width: 100% !important;
+        float: left;
+        font-size: 1.8em;
+    }
+
+    main #rating .ratingDiv {
+        width: 45% !important;
+    }
+
+    main #rating .ratingDiv form input[type="submit"] {
+        transform: translate(0, 90%) !important;
+    }
+
+    main #pricing .pricingDiv {
+        width: 45% !important;
+    }
+
+    main .textContainer p {
+        width: 100% !important;
+        clear: left;
+        float: left;
+    }
+
+    main .textContainer form input[type="submit"] {
+        transform: translate(0, 0) !important;
+        width: 100% !important;
+        float: left !important;
+        clear: left !important;
+        font-size: 1em !important;
+    }
+
+
+    #mainSlider .slick-prev::before,
+    .slick-next::before {
+        font-size: 1rem !important;
+    }
+
+    .bootomLinks {
+        width: 50%;
+    }
+
+    #bottom {
+        font-size: 1.1em;
+        height: 790px;
+    }
+
+    #bottom #info {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    #bottom #info h3 {
+        width: 90%;
+    }
+
+    #bottom #bottomPic {
+        width: 100%;
+    }
+
+    main #SignUp {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    main #add {
+        width: 100%;
+        float: none;
+        margin: 15px auto !important;
+    }
+
+    main #add p:nth-of-type(1)::before {
+        font-size: 1.5em;
+        vertical-align: top;
+    }
+
+    main #SignUp form input[type="submit"]:nth-of-type(1) {
+        width: 100%;
+    }
+
+    header nav li ul ul:nth-of-type(1) {
+        position: relative;
+        left: 0;
+        top: 2px;
+    }
+
+    header nav li:hover>ul ul {
+        visibility: visible;
+        opacity: 1;
+        background-color: #fff0;
+    }
+
+    header nav li:hover>ul ul li {
+        width: 95%;
+    }
+
+    header nav ul .portfolioS::before {
+        position: absolute;
+        transform: rotate(0) !important;
+        ;
+        top: -7px !important;
+        left: 10px;
+        content: '';
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 0 !important;
+    }
+
+    header nav {
+        width: 100% !important;
+        float: left !important;
+        margin-top: 50px !important;
+    }
+
+    header {
+        height: 160px !important;
+    }
+
+    header ul {
+        margin: 0 auto !important;
+    }
+
+    header nav>ul>li {
+        width: 80px !important;
+    }
+
+    header nav ul li ul {
+        margin-top: 8px !important;
+        width: 120px !important;
+    }
+
+    header nav ul li ul li {
+        width: 95% !important;
+    }
+
+    header nav ul li ul li>ul {
+        width: 100% !important;
+    }
+
+    header nav ul li ul li {
+        width: 95% !important;
+    }
+
+    header nav li:nth-of-type(8) ul {
+        width: 150px !important;
+    }
+
+    header nav ul #Search {
+        margin-top: 8px !important;
+    }
+
+    header nav ul li:nth-of-type(4) {
+        width: 120px !important;
+    }
+
+    header nav ul #Search::before {
+        transform: translate(700%, -100%) !important;
+    }
+
+    #mainSlider .slick-dots li {
+        width: 50px !important;
+        margin: 0 4px !important;
+    }
+
+    #mainSlider .slick-dots li button {
+        width: 50px !important;
+        margin: 20px 0 !important;
+    }
+}
+
+/*Size 5*/
+@media all and (max-width: 467px) and (min-width:312px) {
+
+    #bottomSlider .slick-prev,
+    #bottomSlider2 .slick-prev {
+        width: 5% !important;
+        left: 90% !important;
+        top: -18% !important;
+    }
+
+    #bottomSlider .slick-next,
+    #bottomSlider2 .slick-next {
+        width: 5% !important;
+        top: -18% !important;
+    }
+
+    #bottomSlider .slick-prev::before,
+    #bottomSlider2 .slick-prev::before {
+        font-size: 0.8rem !important;
+        background-color: #e7e7e7 !important;
+        color: rgb(125, 125, 125) !important;
+
+    }
+
+
+    #bottomSlider .slick-next::before,
+    #bottomSlider2 .slick-next::before {
+
+        font-size: 0.8rem !important;
+        background-color: #e7e7e7 !important;
+        color: rgb(125, 125, 125) !important;
+
+    }
+
+    .cover {
+        background-color: #fff0 !important;
+        width: 100% !important;
+    }
+
+    .cover i:nth-of-type(2) {
+        position: unset !important;
+        transform: translateY(120%);
+    }
+
+    .cover i:nth-of-type(2) {
+        display: block !important;
+        color: #5eb3ab !important;
+        font-size: 1.3em !important;
+    }
+
+    section .container .slick-initialized .slick-slide {
+        margin: 0 5px !important;
+    }
+
+    .slick-slide .cover i:nth-of-type(1) {
+        display: none !important;
+    }
+
+    .slick-slide h3 {
+        display: none !important;
+    }
+
+    #sdown {
+        overflow: hidden !important;
+    }
+
+    .sdownDiv {
+        margin: 10px 0 !important;
+    }
+
+    main .sdownDiv:nth-of-type(1) {
+        width: 100% !important;
+    }
+
+    main .sdownDiv:nth-of-type(2) {
+        width: 100% !important;
+    }
+
+    main .sdownDiv:nth-of-type(3) {
+        width: 100% !important;
+
+    }
+
+
+    #down {
+        overflow: hidden !important;
+    }
+
+    .downDiv {
+        margin: 20px 0 !important;
+    }
+
+    main .downDiv:nth-of-type(1) {
+        width: 100% !important;
+    }
+
+    main .downDiv:nth-of-type(2) {
+        width: 100% !important;
+    }
+
+    main .downDiv:nth-of-type(3) {
+        width: 100% !important;
+    }
+
+    main section #dialog .dialogDiv {
+        width: 80% !important;
+        border-radius: 5px !important;
+        margin: 5px 10% !important;
+    }
+
+    main section #dialog .dialogDiv:nth-of-type(1):hover {
+        transform-origin: center !important;
+        transform: scale(90%, 90%) !important;
+    }
+
+    main section #dialog .dialogDiv:nth-of-type(2):hover {
+        transform-origin: center !important;
+        transform: scale(90%, 90%) !important;
+    }
+
+    main section #dialog .dialogDiv:nth-of-type(3):hover {
+        transform-origin: center !important;
+        transform: scale(90%, 90%) !important;
+    }
+
+    #title div {
+        font-size: 0.6em !important;
+        margin: 1% 5% !important;
+        padding: 5px !important;
+    }
+
+    #show h1 {
+        border-radius: 2px;
+        border-bottom: 2px solid #da4641dc !important;
+        font-size: 1em !important;
+    }
+
+    #title {
+        padding-top: 4% !important;
+    }
+
+    main #rating .ratingDiv {
+        width: 93% !important;
+    }
+
+    main #pricing .pricingDiv {
+        width: 93% !important;
+    }
+
+    main #rating .ratingDiv form input[type="submit"] {
+        transform: translate(0, 90%) !important;
+    }
+
+
+    main .textContainer h2 {
+        width: 100% !important;
+        float: left;
+        font-size: 1.8em;
+    }
+
+
+    main .textContainer p {
+        width: 100% !important;
+        clear: left;
+        float: left;
+    }
+
+    main .textContainer form input[type="submit"] {
+        transform: translate(0, 0) !important;
+        width: 100% !important;
+        float: left !important;
+        clear: left !important;
+        font-size: 1em !important;
+    }
+
+    #mainSlider .slick-prev::before,
+    .slick-next::before {
+        font-size: 0.7rem !important;
+    }
+
+    header nav>ul>li {
+        width: 100% !important;
+    }
+
+    header {
+        height: 340px !important;
+    }
+
+    .bootomLinks {
+        width: 50%;
+    }
+
+    #bottom {
+        font-size: 0.85em;
+        height: 770px;
+    }
+
+    #bottom #info {
+        width: 100%;
+    }
+
+    #bottom #info h3 {
+        width: 90%;
+
+    }
+
+    #bottom #bottomPic {
+        width: 100%;
+    }
+
+    main #SignUp {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    main #SignUp form label {
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+    main #add {
+        width: 100%;
+        float: none;
+        margin: 15px auto !important;
+    }
+
+    main #add p:nth-of-type(1)::before {
+        font-size: 1.5em;
+        vertical-align: top;
+    }
+
+    main #SignUp form input[type="submit"] {
+        width: 100%;
+    }
+
+    main .topRibbon {
+        height: 100px !important;
+    }
+
+    main .topRibbon h6 {
+        left: 0 !important;
+        top: 30px !important;
+    }
+
+    header nav li ul ul {
+        position: relative;
+        left: 0;
+        top: 2px;
+    }
+
+    header nav li:hover>ul ul {
+        visibility: visible;
+        opacity: 1;
+        background-color: #fff0;
+    }
+
+    header nav li:hover>ul ul li {
+        width: 95%;
+    }
+
+    header nav ul .portfolioS::before {
+        position: absolute;
+        transform: rotate(0) !important;
+        ;
+        top: -7px !important;
+        left: 10px;
+        content: '';
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 0 !important;
+    }
+
+    header nav {
+        width: 100% !important;
+        float: left !important;
+        margin-top: 50px !important;
+    }
+
+    header ul {
+        margin: 0 auto !important;
+    }
+
+    header nav li ul li:hover>ul {
+        background-color: #ececec83;
+    }
+
+    header nav ul li ul {
+        margin-top: 8px !important;
+        width: 100% !important;
+    }
+
+    header nav ul li ul li {
+        width: 95% !important;
+    }
+
+    header nav ul #Search {
+        margin-top: 8px !important;
+    }
+
+    header nav li:nth-of-type(8) ul {
+        width: 100% !important;
+        display: block;
+        left: 0px !important;
+    }
+
+    header nav li:nth-of-type(8) ul li {
+        width: 100%;
+    }
+
+    header nav ul #Search::before {
+        transform: translate(0%, -100%) !important;
+    }
+
+    #mainSlider .slick-dots li {
+        width: 40px !important;
+        margin: 0 2px !important;
+    }
+
+    #mainSlider .slick-dots li button {
+        width: 40px !important;
+        margin: 15px 0 !important;
+    }
+}
+
+/*Size 6*/
+@media all and (max-width: 312px) and (min-width:256px) {
+
+    #bottomSlider .slick-prev,
+    #bottomSlider2 .slick-prev {
+        width: 7% !important;
+        left: 87% !important;
+        top: -18% !important;
+    }
+
+    #bottomSlider .slick-next,
+    #bottomSlider2 .slick-next {
+        width: 7% !important;
+        top: -18% !important;
+    }
+
+    #bottomSlider .slick-prev::before,
+    #bottomSlider2 .slick-prev::before {
+        font-size: 0.7rem !important;
+        background-color: #e7e7e7 !important;
+        color: rgb(125, 125, 125) !important;
+
+    }
+
+    main #pricing .pricingDiv {
+        width: 93% !important;
+    }
+
+    #bottomSlider .slick-next::before,
+    #bottomSlider2 .slick-next::before {
+
+        font-size: 0.7rem !important;
+        background-color: #e7e7e7 !important;
+        color: rgb(125, 125, 125) !important;
+
+    }
+
+    .cover {
+        background-color: #fff0 !important;
+        width: 100% !important;
+    }
+
+    .cover i:nth-of-type(2) {
+        position: unset !important;
+        transform: translateY(180%);
+    }
+
+    .cover i:nth-of-type(2) {
+        display: block !important;
+        color: #5eb3ab !important;
+        font-size: 1em !important;
+    }
+
+    section .container .slick-initialized .slick-slide {
+        margin: 0 5px !important;
+    }
+
+    .slick-slide .cover i:nth-of-type(1) {
+        display: none !important;
+    }
+
+    .slick-slide h3 {
+        display: none !important;
+    }
+
+    #sdown {
+        overflow: hidden !important;
+    }
+
+    .sdownDiv {
+        margin: 10px 0 !important;
+    }
+
+    main .sdownDiv:nth-of-type(1) {
+        width: 100% !important;
+    }
+
+    main .sdownDiv:nth-of-type(2) {
+        width: 100% !important;
+    }
+
+    main .sdownDiv:nth-of-type(3) {
+        width: 100% !important;
+
+    }
+
+    #down {
+        overflow: hidden !important;
+    }
+
+    .downDiv {
+        margin: 20px 0 !important;
+    }
+
+    main .downDiv:nth-of-type(1) {
+        width: 100% !important;
+    }
+
+    main .downDiv:nth-of-type(2) {
+        width: 100% !important;
+    }
+
+    main .downDiv:nth-of-type(3) {
+        width: 100% !important;
+    }
+
+    main section #dialog .dialogDiv {
+        width: 80% !important;
+        border-radius: 5px !important;
+        margin: 5px 10% !important;
+    }
+
+    main section #dialog .dialogDiv:nth-of-type(1):hover {
+        transform-origin: center !important;
+        transform: scale(90%, 90%) !important;
+    }
+
+    main section #dialog .dialogDiv:nth-of-type(2):hover {
+        transform-origin: center !important;
+        transform: scale(90%, 90%) !important;
+    }
+
+    main section #dialog .dialogDiv:nth-of-type(3):hover {
+        transform-origin: center !important;
+        transform: scale(90%, 90%) !important;
+    }
+
+    #title div {
+        font-size: 0.5em !important;
+        margin: 1% 4% !important;
+        padding: 5px !important;
+    }
+
+    #show h1 {
+        border-radius: 2px;
+        border-bottom: 2px solid #da4641dc !important;
+        font-size: 0.9em !important;
+    }
+
+    #title {
+        padding-top: 2% !important;
+    }
+
+    main .textContainer h2 {
+        width: 100% !important;
+        float: left;
+        font-size: 1.8em;
+    }
+
+
+    main .textContainer p {
+        width: 100% !important;
+        clear: left;
+        float: left;
+    }
+
+    main .textContainer form input[type="submit"] {
+        transform: translate(0, 0) !important;
+        width: 100% !important;
+        float: left !important;
+        clear: left !important;
+        font-size: 1em !important;
+    }
+
+    #mainSlider .slick-prev::before,
+    .slick-next::before {
+        font-size: 0.5rem !important;
+    }
+
+    header nav>ul>li {
+        width: 100% !important;
+    }
+
+    header {
+        height: 340px !important;
+    }
+
+    .bootomLinks {
+        width: 50%;
+    }
+
+    #bottom {
+        font-size: 0.9em;
+        height: 780px;
+    }
+
+    #bottom #info {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    #bottom #info h3 {
+        width: 90%;
+
+    }
+
+    #bottom #bottomPic {
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    main #SignUp {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    main #SignUp form label {
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+    main #add {
+        width: 100%;
+        float: none;
+        margin: 15px auto !important;
+    }
+
+    main #add p:nth-of-type(1)::before {
+        font-size: 1.5em;
+        vertical-align: top;
+    }
+
+    main #SignUp form input[type="submit"] {
+        width: 100%;
+    }
+
+    main .topRibbon {
+        height: 100px !important;
+    }
+
+    main .topRibbon h6 {
+        left: 0 !important;
+        top: 30px !important;
+    }
+
+    header nav li ul ul {
+        position: relative;
+        left: 0;
+        top: 2px;
+    }
+
+    header nav li:hover>ul ul {
+        visibility: visible;
+        opacity: 1;
+        background-color: #fff0;
+    }
+
+    header nav li:hover>ul ul li {
+        width: 95%;
+    }
+
+    header nav ul .portfolioS::before {
+        position: absolute;
+        transform: rotate(0) !important;
+        ;
+        top: -7px !important;
+        left: 10px;
+        content: '';
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 0 !important;
+    }
+
+    header nav {
+        width: 100% !important;
+        float: left !important;
+        margin-top: 50px !important;
+    }
+
+    header ul {
+        margin: 0 auto !important;
+    }
+
+    header nav li ul li:hover>ul {
+        background-color: #ececec83;
+    }
+
+    header nav ul li ul {
+        margin-top: 8px !important;
+        width: 100% !important;
+    }
+
+    header nav ul li ul li {
+        width: 95% !important;
+    }
+
+    header nav ul #Search {
+        margin-top: 8px !important;
+    }
+
+    header nav li:nth-of-type(8) ul {
+        width: 100% !important;
+        display: block;
+        left: 0px !important;
+    }
+
+    header nav li:nth-of-type(8) ul li {
+        width: 100%;
+    }
+
+    header nav ul #Search::before {
+        transform: translate(0%, -100%) !important;
+    }
+
+    #mainSlider .slick-dots li {
+        width: 30px !important;
+        margin: 0 2px !important;
+    }
+
+    #mainSlider .slick-dots li button {
+        width: 30px !important;
+        margin: 10px 0 !important;
+    }
+}
+
+/*Size 7*/
+@media all and (max-width: 256px) {
+
+    #bottomSlider .slick-prev,
+    #bottomSlider2 .slick-prev {
+        width: 8% !important;
+        left: 85% !important;
+        top: -18% !important;
+    }
+
+    #bottomSlider .slick-next,
+    #bottomSlider2 .slick-next {
+        width: 8% !important;
+        top: -18% !important;
+    }
+
+    main #pricing .pricingDiv {
+        width: 93% !important;
+    }
+
+    #bottomSlider .slick-prev::before,
+    #bottomSlider2 .slick-prev::before {
+        font-size: 0.8rem !important;
+        background-color: #e7e7e7 !important;
+        color: rgb(125, 125, 125) !important;
+
+    }
+
+
+    #bottomSlider .slick-next::before,
+    #bottomSlider2 .slick-next::before {
+
+        font-size: 0.8rem !important;
+        background-color: #e7e7e7 !important;
+        color: rgb(125, 125, 125) !important;
+
+    }
+
+    .cover {
+        background-color: #fff0 !important;
+        width: 100% !important;
+    }
+
+    .cover i:nth-of-type(2) {
+        position: unset !important;
+        transform: translateY(230%);
+    }
+
+    .cover i:nth-of-type(2) {
+        display: block !important;
+        color: #5eb3ab !important;
+        font-size: 0.7em !important;
+    }
+
+    section .container .slick-initialized .slick-slide {
+        margin: 0 5px !important;
+    }
+
+    .slick-slide .cover i:nth-of-type(1) {
+        display: none !important;
+    }
+
+    .slick-slide h3 {
+        display: none !important;
+    }
+
+    #sdown {
+        overflow: hidden !important;
+    }
+
+    .sdownDiv {
+        margin: 10px 0 !important;
+    }
+
+    main .sdownDiv:nth-of-type(1) {
+        width: 100% !important;
+    }
+
+    main .sdownDiv:nth-of-type(2) {
+        width: 100% !important;
+    }
+
+    main .sdownDiv:nth-of-type(3) {
+        width: 100% !important;
+
+    }
+
+    #down {
+        overflow: hidden !important;
+    }
+
+    .downDiv {
+        margin: 20px 0 !important;
+    }
+
+    main .downDiv:nth-of-type(1) {
+        width: 100% !important;
+    }
+
+    main .downDiv:nth-of-type(2) {
+        width: 100% !important;
+    }
+
+    main .downDiv:nth-of-type(3) {
+        width: 100% !important;
+    }
+
+    main section #dialog .dialogDiv {
+        width: 80% !important;
+        border-radius: 5px !important;
+        margin: 5px 10% !important;
+    }
+
+    main section #dialog .dialogDiv:nth-of-type(1):hover {
+        transform-origin: center !important;
+        transform: scale(90%, 90%) !important;
+    }
+
+    main section #dialog .dialogDiv:nth-of-type(2):hover {
+        transform-origin: center !important;
+        transform: scale(90%, 90%) !important;
+    }
+
+    main section #dialog .dialogDiv:nth-of-type(3):hover {
+        transform-origin: center !important;
+        transform: scale(90%, 90%) !important;
+    }
+
+    #title div {
+        display: none;
+    }
+
+    #show h1 {
+        border-radius: 2px;
+        border-bottom: 2px solid #da4641dc !important;
+        font-size: 0.7em !important;
+    }
+
+    #title {
+        padding-top: 5% !important;
+    }
+
+    main .textContainer h2 {
+        width: 100% !important;
+        float: left;
+        font-size: 1.8em;
+    }
+
+
+    main .textContainer p {
+        width: 100% !important;
+        clear: left;
+        float: left;
+    }
+
+    main .textContainer form input[type="submit"] {
+        transform: translate(0, 0) !important;
+        width: 100% !important;
+        float: left !important;
+        clear: left !important;
+        font-size: 1em !important;
+    }
+
+    #mainSlider .slick-prev::before,
+    .slick-next::before {
+        font-size: 0.4rem !important;
+    }
+
+    #mainSlider .slick-dots li {
+        width: 20px !important;
+        margin: 0 2px !important;
+    }
+
+    #mainSlider .slick-dots li button {
+        width: 20px !important;
+        margin: 10px 0 !important;
+    }
+
+    header nav>ul>li {
+        width: 100% !important;
+    }
+
+    header nav li ul li:hover>ul {
+        background-color: #ececec83;
+    }
+
+    header nav ul li ul {
+        margin-top: 8px !important;
+        width: 100% !important;
+    }
+
+    header nav ul li ul li {
+        width: 95% !important;
+    }
+
+    .bootomLinks {
+        width: 50%;
+    }
+
+    #bottom {
+        font-size: 0.7em;
+        height: 800px;
+    }
+
+    #bottom #info {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    #bottom #info h3 {
+        width: 90%;
+
+    }
+
+    #bottom #bottomPic {
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    main #SignUp form label {
+
+        font-size: 0.5em;
+    }
+
+    main #SignUp {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    main #add {
+        width: 100%;
+        float: none;
+        margin: 15px auto !important;
+    }
+
+    main #add p:nth-of-type(1)::before {
+        font-size: 1.5em;
+        vertical-align: top;
+    }
+
+    main #SignUp form input[type="submit"] {
+        width: 100%;
+    }
+
+    main .mainRibbon {
+        font-size: 0.7em;
+        padding: 5px !important;
+        height: 200px !important;
+    }
+
+    header nav li ul ul:nth-of-type(1) {
+        position: relative;
+        left: 0;
+        top: 2px;
+    }
+
+    header nav li:hover>ul ul {
+        visibility: visible;
+        opacity: 1;
+        background-color: #fff0;
+    }
+
+    header nav li:hover>ul ul li {
+        width: 95%;
+    }
+
+    header nav ul .portfolioS::before {
+        position: absolute;
+        transform: rotate(0) !important;
+        ;
+        top: -7px !important;
+        left: 10px;
+        content: '';
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 0 !important;
+    }
+
+    main .topRibbon {
+        height: 100px !important;
+    }
+
+    main .topRibbon h6 {
+        left: 0 !important;
+        top: 30px !important;
+    }
+
+    header h2 {
+        font-size: 2em !important;
+        text-align: center !important;
+        display: block !important;
+    }
+
+    header h4 {
+        font-size: 1.2em !important;
+    }
+
+    header nav {
+        width: 100% !important;
+        float: left !important;
+        margin-top: 70px !important;
+    }
+
+    header ul {
+        margin: 0 auto !important;
+    }
+
+    header {
+        height: 340px !important;
+    }
+
+    header nav ul li ul {
+        margin-top: 8px !important;
+    }
+
+    header nav ul #Search {
+        margin-top: 8px !important;
+    }
+
+    header nav li:nth-of-type(8) ul {
+        width: 100% !important;
+        display: block;
+        left: 0px !important;
+    }
+
+    header nav li:nth-of-type(8) ul li {
+        width: 100%;
+    }
+
+    header nav ul #Search::before {
+        transform: translate(0%, -100%) !important;
+    }
+}

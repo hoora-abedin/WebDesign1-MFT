@@ -1,0 +1,454 @@
+@font-face {
+    font-family: hoora;
+    src: url(../fonts/Audiowide-Regular.ttf);
+}
+
+main .details {
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.2em;
+    color: rgb(118, 118, 118);
+    margin: 40px 0 50px 0;
+}
+
+main .details h2 {
+    font-size: 2em;
+    color: #e0524a;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+#sdown {
+    width: 100%;
+    min-height: 200px;
+    overflow: auto;
+}
+
+main .sdownDiv {
+    min-height: 200px;
+    font-size: 0.9em;
+    color: #7e7e7e;
+    float: left;
+    text-align: left;
+}
+
+main .sdownDiv:nth-of-type(1),
+.sdownDiv:nth-of-type(2) {
+    width: 23%;
+}
+
+main .sdownDiv:nth-of-type(3) {
+    width: 51%;
+    padding: 2%;
+
+}
+
+main .sdownDiv li {
+    list-style-type: none;
+}
+
+main .sdownDiv li a {
+    text-decoration: none;
+    color: #7e7e7e;
+    min-height: 20px;
+    display: block;
+
+}
+
+main .sdownDiv li a:hover {
+    font-weight: bold;
+}
+
+
+main .sdownDiv li a::before {
+    font-family: "FontAwesome";
+    content: "\f061";
+    font-size: 0.8em;
+    margin-right: 10px;
+    color: #e25b53;
+}
+
+
+main .sdownDiv h3 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+
+
+main .sdownDiv h2 {
+    font-size: 1.3em;
+    font-weight: 500;
+    transform: translate(20%, 0);
+    margin-top: 15px;
+}
+
+
+main .sdownDiv .semi-donut {
+    width: 120px;
+    height: 60px;
+    display: flex;
+    position: relative;
+    color: #7f8c8c;
+    font-size: 2em;
+    font-weight: bold;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+}
+
+main .chart:nth-of-type(1) .semi-donut::after {
+    transition: all 0.5s;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 120px;
+    height: 120px;
+    border: 20px solid #fff;
+    box-sizing: border-box;
+    border-color: #e2534b #e2534b #76c7c0 #76c7c0;
+    border-radius: 50%;
+    transform: rotate(45deg);
+}
+
+main .chart:nth-of-type(2) .semi-donut::after {
+    transition: all 0.5s;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 120px;
+    height: 120px;
+    border: 20px solid #fff;
+    box-sizing: border-box;
+    border-color: #e2534b #e2534b #76c7c0 #76c7c0;
+    border-radius: 50%;
+    transform: rotate(70deg);
+}
+
+main .chart:nth-of-type(3) .semi-donut::after {
+    transition: all 0.5s;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 120px;
+    height: 120px;
+    border: 20px solid #fff;
+    box-sizing: border-box;
+    border-color: #e2534b #e2534b #76c7c0 #76c7c0;
+    border-radius: 50%;
+    transform: rotate(90deg);
+}
+
+main .chart:nth-of-type(4) .semi-donut::after {
+    transition: all 0.5s;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 120px;
+    height: 120px;
+    border: 20px solid #fff;
+    box-sizing: border-box;
+    border-color: #e2534b #e2534b #76c7c0 #76c7c0;
+    border-radius: 50%;
+    transform: rotate(135deg);
+}
+
+
+main .sdownDiv .chart:nth-of-type(1):hover .semi-donut::after {
+    transform: rotate(225deg);
+    opacity: 1;
+}
+
+main .sdownDiv .chart:nth-of-type(2):hover .semi-donut::after {
+    transform: rotate(250deg);
+    opacity: 1;
+}
+
+main .sdownDiv .chart:nth-of-type(3):hover .semi-donut::after {
+    transform: rotate(270deg);
+    opacity: 1;
+}
+
+main .sdownDiv .chart:nth-of-type(4):hover .semi-donut::after {
+    transform: rotate(315deg);
+    opacity: 1;
+}
+
+main .sdownDiv .chart:hover .semi-donut {
+    color: #e2534b;
+    opacity: 1;
+}
+
+main .sdownDiv .chart:hover {
+    color: #e2534b;
+    opacity: 1;
+}
+
+
+main .sdownDiv .chart {
+    float: left;
+    width: 120px;
+    text-align: center;
+    margin: 1.5%;
+    opacity: 0.7;
+}
+
+main #pricing {
+    width: 100%;
+    min-height: 340px;
+    overflow: auto;
+    z-index: 20;
+    text-align: center;
+}
+
+main #pricing h1 {
+    font-size: 2.5em;
+    color: #808b8d;
+    margin-top: 20px;
+}
+
+
+main #pricing .pricingDiv {
+    width: 22%;
+    min-height: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 40px 1.5%;
+    color: #868b8a;
+    text-align: center;
+    border-bottom: 4px solid #e5e6e6;
+    float: left;
+    padding: 10px;
+    z-index: 30;
+}
+
+main #pricing .pricingDiv:hover {
+    cursor: pointer;
+    background-color: #76c7c0;
+}
+
+
+main #pricing .pricingDiv h3 {
+    font-weight: normal;
+    font-size: 1.2em;
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e2e2;
+    width: 85%;
+    margin: 0 auto;
+}
+
+main #pricing .pricingDiv:hover h3 {
+    border-bottom: 1px solid #56a9a2;
+    color: #fff;
+}
+
+main #pricing .pricingDiv h3:nth-of-type(4) {
+    border-bottom: 0;
+}
+
+
+main #pricing .pricingDiv form input[type="button"] {
+    border: 0;
+    width: 80%;
+    height: 55px;
+    background-color: #808b8d;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 1.2em;
+    transform: translateY(-20%);
+    font-weight: bold;
+}
+
+main #pricing .pricingDiv form input[type="submit"] {
+    border: 0;
+    width: 80%;
+    height: 55px;
+    background-color: #808b8d;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 1.2em;
+    transform: translateY(20%);
+    font-weight: bold;
+}
+
+main #pricing .pricingDiv:hover input[type="submit"] {
+    background-color: #e25b53;
+    transform: translateY(50%);
+
+}
+
+main #pricing .pricingDiv:hover input[type="button"] {
+    background-color: #e25b53;
+    transform: translateY(-50%);
+
+}
+
+main section {
+    width: 100%;
+    background-color: #e7e7e7;
+    background-image: url(../images/bottomRulerGray.png);
+    background-size: 40px 16px;
+    background-repeat: repeat-x;
+    background-position: top;
+    padding: 30px 0 0 0;
+}
+
+main .details:nth-of-type(2) {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #7d7d7d;
+    margin: 20px;
+    margin-left: 0;
+    position: relative;
+}
+
+hr::before {
+    content: "Our Happy Clients";
+    width: 170px;
+    height: 30px;
+    background-color: #e7e7e7;
+    text-align: left;
+    font-size: 1.2em;
+    position: absolute;
+    color: #747474;
+    font-weight: bold;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0;
+}
+
+#mainSlider .slick-next {
+    height: 10%;
+    width: 3%;
+    border-radius: 0 5px 5px 0;
+    border-bottom: 3px solid #da4641;
+    background-color: #e25b53;
+    z-index: 20;
+    right: 0;
+    top: 50%;
+}
+
+#bottomSlider2 .slick-prev {
+    height: 30px;
+    width: 2.5%;
+    left: 95%;
+    top: -25%;
+    z-index: 20;
+    background-color: #e7e7e7;
+}
+
+#bottomSlider2 .slick-next {
+    height: 30px;
+    width: 2.5%;
+    right: 0%;
+    top: -25%;
+    z-index: 20;
+    background-color: #e7e7e7;
+}
+
+#bottomSlider2 .slick-prev::before {
+    font-family: "FontAwesome";
+    content: "\f053";
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: #747474;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#bottomSlider2 .slick-next::before {
+    font-family: "FontAwesome";
+    content: "\f054";
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: #747474;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#bottomSlider2 {
+    padding-bottom: 40px;
+}
+
+section .container .slick-initialized .slick-slide {
+    background-color: #fff;
+    margin: 0 10px;
+    min-height: 80px;
+    vertical-align: middle;
+    width: 100px;
+    border-radius: 8px;
+    position: relative;
+}
+
+
+.cover {
+    width: 20%;
+    min-height: 80px;
+    background-color: #5eb3ab;
+    border-radius: 8px 0 0 8px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.8;
+    position: relative;
+}
+
+.cover i:nth-of-type(1) {
+    top: 40%;
+    position: absolute;
+    left: 40%;
+}
+
+.cover i:nth-of-type(2) {
+    top: 35%;
+    position: absolute;
+    left: 45%;
+    font-size: 2em;
+    display: none;
+}
+
+
+.slick-slide:hover .cover {
+    width: 100%;
+    z-index: 100;
+    border-radius: 8px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.slick-slide:hover .cover i:nth-of-type(1) {
+    display: none;
+}
+
+.slick-slide:hover .cover i:nth-of-type(2) {
+    display: block;
+}
+
+
+.slick-slide:hover h3 {
+    display: none;
+    font-family: 'slide';
+}
+
+.slick-slide {
+    overflow: hidden;
+}
+
+.slick-slide h3 {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-size: 1.2em;
+    color: #747474;
+    font-family: 'hoora';
+}
