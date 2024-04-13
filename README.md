@@ -1,0 +1,1 @@
+I passed a Web Design course at Tehran Institute of Technogoly and This is the final project. The professor gave us a picture of a website and we were supposed to fully implement the front-end using HTML & CSS.
